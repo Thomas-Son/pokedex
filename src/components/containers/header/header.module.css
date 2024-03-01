@@ -2,13 +2,20 @@
     position: fixed;
     width: 100%;
 
-    padding: 1rem;
     background-color: brown;
 }
 
 .header h1 {
     text-align: center;
-    margin: 2rem;
+    padding-top: 3.5rem;
+
+    background-color: white;
+    border: 2px solid rgb(110, 22, 22);
+    border-radius: 50% 50% 0 0;
+    width: 21rem;
+    height: 21rem;
+
+    margin: 2rem auto -11rem;
 }
 
 .header nav {
@@ -21,6 +28,19 @@
 .header nav a {
     text-decoration: none;
     color: black;
+
+    border: 0.2rem solid lightgray;
+    border-radius: 0.5rem;
+}
+
+.header nav a:hover {
+    border-color: rgb(226, 226, 226);
+    box-shadow: 0.5rem 0.5rem 0.5rem lightgray;
+}
+
+.header nav a:active {
+    border-color: rgb(243, 243, 243);
+    box-shadow: 0.25rem 0.25rem 0.5rem lightgray;
 }
 
 .header form input {
@@ -30,4 +50,12 @@
 .header form button {
     width: 100%;
     height: 2rem;
+}
+
+.navigation {
+    border: 2px solid black;
+    background-color: white;
+    padding: 1rem;
+
+    border-radius: 1rem;
 }
