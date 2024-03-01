@@ -1,0 +1,49 @@
+.pokemonCard {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+    padding-top: 21rem;
+    padding-bottom: 11rem;
+}
+
+.pokemonCard h2 {
+    width: 100%;
+}
+
+.pokemonCard .pokemonName {
+    width: 100%;
+}
+
+.pokemonRegular,
+.pokemonRegular img,
+.pokemonShiny,
+.pokemonShiny img {
+    width: 50%;
+}
+
+.pokemonType {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pokemonType h3 {
+    width: 100%;
+}
+
+.pokemonDetail,
+.pokemonStat {
+    width: 100%;
+}
+  
+.pokemonDetail p,
+.pokemonStat p {
+    text-align: left;
+}
+
+.pokemonStat div {
+    display: flex;
+    justify-content: space-between;
+}
