@@ -30,7 +30,7 @@ export const useApiGet = (url: string): TApiResponse => {
 
     useEffect(() => {
         getAPIData();
-    }, [url]); //chargement à chaque changement de url
+    }, [url]);
 
     return { status, statusText, data, error, loading };
 };

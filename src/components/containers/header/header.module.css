@@ -7,27 +7,35 @@
 
 .header h1 {
     text-align: center;
-    padding-top: 3.5rem;
+    padding-top: 2.7rem;
+    font-size: 3rem;
 
     background-color: white;
     border: 2px solid rgb(110, 22, 22);
     border-radius: 50% 50% 0 0;
-    width: 21rem;
-    height: 21rem;
+    width: 18rem;
+    height: 18rem;
 
     margin: 2rem auto -11rem;
 }
 
 .header nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 
     margin-bottom: 0.5rem;
 }
 
 .header nav a {
+    text-align: center;
     text-decoration: none;
     color: black;
+
+    font-size: 1.5rem;
+
+    width: 18%;
+    margin: 0.3rem 0.1rem;
 
     border: 0.2rem solid lightgray;
     border-radius: 0.5rem;
@@ -58,4 +66,9 @@
     padding: 1rem;
 
     border-radius: 1rem;
+}
+
+.title {
+    text-decoration: none;
+    color: black;
 }
